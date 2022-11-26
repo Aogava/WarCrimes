@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>WarCrimes</title>
+</head>
+
+<body>
+  <h1 class="main-header">Crime topography</h1>
+  <div class="main-part">
+    <ul class="main-part__statistics statistics"></ul>
+    <div class="main-part__map map">
+      <img class="map__image" src="./img/map.svg" alt="map">
+      <div class="map__points"></div>
+    </div>
+    <button class="main-part__play-button"><img src="./img/play-button.svg" alt="play button"></button>
+  </div>
+  <div class="slider">
+    <div class="slider__columns columns"></div>
+    <input type="range" class="slider__working-part" min="0" max="99" value="0">
+    <div class="slider__date-popup"></div>
+  </div>
+
+  <script src="./js/main-function.js"></script>
+</body>
+
+</html>
